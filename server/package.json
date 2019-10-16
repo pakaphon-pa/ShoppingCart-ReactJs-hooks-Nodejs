@@ -1,0 +1,16 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server",
+    "kill": "kill -9 $(lsof -t -i:1344)"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
